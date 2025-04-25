@@ -1,130 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="E-book completo e prático sobre Inteligência Artificial. Aprenda a usar as melhores ferramentas com passo a passo e prompts prontos para aplicar na sua vida ou negócio.">
-  <meta name="keywords" content="ebook inteligência artificial, AI na prática, como usar IA, ChatGPT, automação IA, ferramentas AI">
-  <meta name="author" content="Eduardo Serafim">
-  <title>Inteligência Artificial na Prática - E-book Oficial</title>
+  <meta name="description" content="E-book prático para iniciantes em Inteligência Artificial - aprenda a usar IA no seu dia a dia, trabalho e estudos.">
+  <title>Descomplicando a IA na Prática</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
     body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #0f172a;
-      color: #e2e8f0;
+      color: #f1f5f9;
       line-height: 1.6;
-      padding: 2rem;
     }
-
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #1e293b;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
     .container {
-      max-width: 960px;
+      max-width: 800px;
       margin: auto;
       padding: 2rem;
-      background-color: #1e293b;
-      border-radius: 1rem;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     }
-
-    h1, h2 {
-      color: #60a5fa;
+    .benefits, .audience, .about, .bonus, .cta {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #22d3ee;
       margin-bottom: 1rem;
     }
-
-    img.cover, img.extra-img {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin: 2rem auto;
-      border-radius: 1rem;
+    ul {
+      padding-left: 1.5rem;
     }
-
+    li {
+      margin-bottom: 0.5rem;
+    }
     .cta {
-      background-color: #10b981;
-      color: white;
+      text-align: center;
+    }
+    .cta button {
       padding: 1rem 2rem;
-      border: none;
-      border-radius: 0.5rem;
-      cursor: pointer;
       font-size: 1.2rem;
-      margin-top: 1.5rem;
-      text-decoration: none;
-      display: inline-block;
-      transition: background-color 0.3s ease;
-    }
-
-    .cta:hover {
-      background-color: #059669;
-    }
-
-    .formulario {
-      background-color: #334155;
-      padding: 1rem;
-      border-radius: 0.5rem;
-      margin-top: 2rem;
-    }
-
-    .formulario input,
-    .formulario textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
-      border-radius: 0.5rem;
-      border: none;
-    }
-
-    .formulario button {
-      background-color: #3b82f6;
+      background-color: #22c55e;
       color: white;
-      padding: 0.7rem 1.5rem;
       border: none;
-      border-radius: 0.5rem;
+      border-radius: 8px;
       cursor: pointer;
+    }
+    .cta button:hover {
+      background-color: #16a34a;
+    }
+    .cover {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+    .cover img {
+      width: 250px;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #1e293b;
+      color: #94a3b8;
     }
   </style>
 </head>
-
 <body>
+  <header>
+    <h1>Descomplicando a Inteligência Artificial na Prática</h1>
+    <p>Guia direto ao ponto para dominar a IA no dia a dia, trabalho e estudos.</p>
+  </header>
+
   <div class="container">
-    <h1>📘 Inteligência Artificial na Prática</h1>
-    <p>Descubra como aplicar as melhores ferramentas de Inteligência Artificial no seu dia a dia ou negócio, mesmo que você seja iniciante. Este e-book te guia passo a passo com tutoriais, prompts prontos e estratégias testadas. Ideal para profissionais, criadores de conteúdo, empreendedores e qualquer pessoa que deseja se destacar usando IA.</p>
 
-    <img src="01.jpg" alt="Capa do E-book Inteligência Artificial na Prática" class="cover">
-
-    <h2>✅ O que você vai aprender:</h2>
-    <ul>
-      <li>Como usar o ChatGPT, Leonardo AI, DALL·E e outras ferramentas.</li>
-      <li>Prompts prontos para tarefas diárias e profissionais.</li>
-      <li>Exemplos reais aplicáveis na vida e nos negócios.</li>
-      <li>Templates, bônus, ideias por nicho e muito mais!</li>
-    </ul>
-
-    <!-- Botão de checkout com link real -->
-    <a href="https://pay.kiwify.com.br/NYEzBLm" class="cta" target="_blank">🔒 Comprar Agora</a>
-
-    <img src="02.jpg" alt="Leitura digital do e-book em tablet" class="extra-img">
-
-    <h2>📩 Entre em contato</h2>
-    <div class="formulario">
-      <label for="nome">Seu nome</label>
-      <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-
-      <label for="email">Seu e-mail</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-
-      <label for="mensagem">Mensagem</label>
-      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como posso te ajudar?"></textarea>
-
-      <button type="submit">Enviar</button>
+    <div class="cover">
+      <img src="./capa.jpg" alt="Capa do E-book">
     </div>
-  </div>
-</body>
 
+    <section class="benefits">
+      <h2>O que você vai aprender:</h2>
+      <ul>
+        <li>Criar conteúdos com mais rapidez</li>
+        <li>Agilizar tarefas do trabalho ou estudos</li>
+        <li>Organizar sua rotina com ajuda da IA</li>
+        <li>Responder mensagens, estudar e gerar ideias com IA</li>
+      </ul>
+    </section>
+
+    <section class="audience">
+      <h2>Para quem é esse e-book?</h2>
+      <ul>
+        <li>Iniciantes em tecnologia</li>
+        <li>Donos de negócios que querem usar IA no marketing</li>
+        <li>Estudantes e profissionais que desejam se destacar</li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2>Sobre o autor</h2>
+      <p>Eduardo Serafim, designer gráfico e instrutor de Jiu-Jitsu, apaixonado por tecnologia. Criou este material para ajudar iniciantes a darem seus primeiros passos com IA de forma simples, rápida e descomplicada.</p>
+    </section>
+
+    <section class="bonus">
+      <h2>Bônus exclusivos:</h2>
+      <ul>
+        <li>Lista de prompts prontos para usar com IA</li>
+        <li>Checklist com os melhores sites gratuitos de IA</li>
+        <li>Tutorial: como usar IA no WhatsApp</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <h2>Oferta de lançamento: apenas R$ 29,90</h2>
+      <p>Valor promocional por tempo limitado. Garanta agora!</p>
+      <button onclick="alert('Em breve você poderá comprar este e-book por aqui!')">Quero meu e-book</button>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Eduardo Serafim. Todos os direitos reservados.
+  </footer>
+</body>
 </html>
